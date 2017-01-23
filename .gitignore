@@ -1,2 +1,6 @@
 /bin
 /boost-build.jam
+
+.buckd
+buck-out
+.buckconfig

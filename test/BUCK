@@ -1,0 +1,32 @@
+cxx_binary(
+  name = 'check-value', 
+  headers = [],
+  srcs = glob([
+    'check_value.cpp',
+  ]),
+  deps = [
+    '//:boost-predef',
+  ],
+)
+
+cxx_binary(
+  name = 'make', 
+  headers = [],
+  srcs = glob([
+    'make.cpp',
+  ]),
+  deps = [
+    '//:boost-predef',
+  ],
+)
+
+cxx_binary(
+  name = 'version', 
+  headers = [],
+  srcs = glob([
+    'version.cpp',
+  ]),
+  deps = [
+    '//:boost-predef',
+  ],
+)
