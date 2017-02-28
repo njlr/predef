@@ -1,6 +1,8 @@
 /bin
 /boost-build.jam
 
-.buckd
-buck-out
-.buckconfig
+/.buckd/
+/buck-out/
+/buckaroo/
+BUCKAROO_DEPS
+.buckconfig.local
