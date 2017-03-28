@@ -1,5 +1,5 @@
 prebuilt_cxx_library(
-  name = 'boost-predef',
+  name = 'predef',
   header_only = True,
   header_namespace = 'boost', 
   exported_headers = subdir_glob([
